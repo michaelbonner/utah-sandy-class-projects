@@ -7,7 +7,7 @@ A place to keep track of the projects from class
 ## Getting started
 
 1. Clone this repository
-2. `cd` into the proejct
+2. `cd` into the project
 3. Run `npm install`
 4. Run `gatsby develop`
 
