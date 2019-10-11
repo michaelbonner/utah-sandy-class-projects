@@ -38,7 +38,7 @@ const IndexPage = () => (
               </div>
               <div className="flex-grow flex flex-wrap justify-between items-end px-4 py-2 mb-2">
                 <a
-                  className="flex justify-center items-center m-1 rounded shadow-md border border-gray-200 hover:border-gray-300 bg-white hover:bg-gray-200 px-4 py-3 text-blue-700 uppercase inline-block"
+                  className="flex justify-center items-center m-1 rounded shadow-md border border-gray-200 hover:border-gray-300 bg-white hover:bg-gray-200 px-4 py-3 text-blue-700 uppercase inline-block text-sm"
                   href={project.url}
                   title={`View ${project.title} Project`}
                   target="_blank"
