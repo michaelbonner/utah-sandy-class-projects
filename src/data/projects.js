@@ -30,7 +30,7 @@ const projects = [
       "Simplified weather app for those who want information quickly",
     image: "weather-station.png",
     url: "https://nmikstas.github.io/group-project-1b/",
-    github: "https://github.io/nmikstas/group-project-1b",
+    github: "https://github.com/nmikstas/group-project-1b",
     youtube: "https://youtu.be/s0WmDIK_47Y",
   },
   {
