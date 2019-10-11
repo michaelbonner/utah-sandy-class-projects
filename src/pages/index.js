@@ -6,7 +6,7 @@ import projects from "../data/projects"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Project 1" />
     <div className="flex flex-wrap items-stretch mt-4">
       {projects.map(project => {
         return (
