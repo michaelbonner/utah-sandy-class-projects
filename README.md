@@ -63,4 +63,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Deploy Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9b782e9c-f4c4-405b-8241-72d0e6050f0d/deploy-status)](https://app.netlify.com/sites/mystifying-darwin-72cd4f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b782e9c-f4c4-405b-8241-72d0e6050f0d/deploy-status)](https://app.netlify.com/sites/utah-sandy-class-projects/deploys)
