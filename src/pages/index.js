@@ -12,9 +12,9 @@ const IndexPage = () => (
         return (
           <div
             key={project.title}
-            className="w-full md:w-1/2 lg:w-1/3 mb-6 px-3 py-1"
+            className="w-full md:w-1/2 lg:w-1/3 mb-6 px-3 pt-1"
           >
-            <div className="h-full rounded overflow-hidden shadow-lg bg-white flex flex-col">
+            <div className="h-full rounded overflow-hidden shadow-md bg-white flex flex-col">
               <a
                 href={project.url}
                 title={project.title}
@@ -23,7 +23,7 @@ const IndexPage = () => (
               >
                 <Image alt={project.title} filename={project.image} />
               </a>
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 flex-grow flex flex-col">
                 <div className="font-bold text-xl mb-2">
                   <a
                     href={project.url}
@@ -36,9 +36,9 @@ const IndexPage = () => (
                 </div>
                 <p className="text-gray-700 text-base">{project.description}</p>
               </div>
-              <div className="flex-grow flex flex-wrap justify-between items-end px-4 py-2 mb-2">
+              <div className="shadow-inner flex flex-wrap justify-between items-end px-2 xl:px-4 py-4 bg-gray-200">
                 <a
-                  className="flex justify-center items-center m-1 rounded shadow-md border border-gray-200 hover:border-gray-300 bg-white hover:bg-gray-200 px-4 py-3 text-blue-700 uppercase inline-block text-sm"
+                  className="flex justify-center items-center m-1 rounded border border-gray-400 hover:border-gray-400 bg-gray-100 hover:bg-white px-4 py-3 text-blue-700 uppercase inline-block text-sm"
                   href={project.url}
                   title={`View ${project.title} Project`}
                   target="_blank"
@@ -55,7 +55,7 @@ const IndexPage = () => (
                 </a>
                 <div>
                   <a
-                    className="m-1 hover:bg-gray-200 p-2 rounded-full text-gray-700 uppercase inline-block"
+                    className="m-1 hover:bg-gray-100 p-2 rounded-full text-gray-700 uppercase inline-block"
                     href={project.github}
                     title={`View ${project.title} on GitHub`}
                     target="_blank"
@@ -70,7 +70,7 @@ const IndexPage = () => (
                     </svg>
                   </a>
                   <a
-                    className="m-1 hover:bg-gray-200 p-2 rounded-full text-red-700 uppercase inline-block"
+                    className="m-1 hover:bg-gray-100 p-2 rounded-full text-red-700 uppercase inline-block"
                     href={project.youtube}
                     title={`View ${project.title} on YouTube`}
                     target="_blank"
@@ -85,7 +85,7 @@ const IndexPage = () => (
                     </svg>
                   </a>
                   <a
-                    className={`m-1 hover:bg-gray-200 p-2 rounded-full text-blue-700 uppercase inline-block${new Date().getFullYear() >
+                    className={`m-1 hover:bg-gray-100 p-2 rounded-full text-blue-700 uppercase inline-block${new Date().getFullYear() >
                       2019} ? ' hidden' : ''`}
                     href={project.dropbox}
                     title={`View ${project.title} on DropBox`}

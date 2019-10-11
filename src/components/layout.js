@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container m-auto p-4">
         <main>{children}</main>
-        <footer className="m-4 mt-8 text-red-900 text-sm">
+        <footer className="m-4 mt-8 text-gray-500 text-sm">
           © {new Date().getFullYear()} Michael Bonner, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
