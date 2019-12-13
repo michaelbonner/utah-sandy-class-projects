@@ -7,8 +7,7 @@ const projects = [
     url: "https://simplicityviaclarity.com/",
     github: "https://github.com/ccollins1544/simplicityviaclarity",
     youtube: "https://youtu.be/WW_DdSJ9h7c",
-    dropbox:
-      "https://www.dropbox.com/s/iflhxxhk48gy9fk/simplicity-via-clarity.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/iflhxxhk48gy9fk/simplicity-via-clarity.mov?dl=0",
   },
   {
     title: "Sports Simplified",
@@ -19,8 +18,7 @@ const projects = [
     url: "https://themtwa.github.io/Project-1/",
     github: "https://github.com/themtwa/Project-1",
     youtube: "https://youtu.be/nJfliL5gyJc",
-    dropbox:
-      "https://www.dropbox.com/s/o3h906hyyawj3sc/sports-simplified.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/o3h906hyyawj3sc/sports-simplified.mov?dl=0",
   },
   {
     title: "Stock Stop",
@@ -41,8 +39,7 @@ const projects = [
     url: "https://nmikstas.github.io/group-project-1b/",
     github: "https://github.com/nmikstas/group-project-1b",
     youtube: "https://youtu.be/s0WmDIK_47Y",
-    dropbox:
-      "https://www.dropbox.com/s/4ue13c97g54gt0d/weather-station.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/4ue13c97g54gt0d/weather-station.mov?dl=0",
   },
   {
     title: "What Do You Want?",
@@ -52,8 +49,7 @@ const projects = [
     url: "http://wdyw.space",
     github: "https://github.com/jonvictory/projectUno",
     youtube: "https://youtu.be/8fam_qGb9fE",
-    dropbox:
-      "https://www.dropbox.com/s/hytp7y0y1eq21vr/what-do-you-want.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/hytp7y0y1eq21vr/what-do-you-want.mov?dl=0",
   },
   {
     title: "What's in Your Pantry",
@@ -63,8 +59,7 @@ const projects = [
     url: "https://collinchiz.github.io/Project-1/",
     github: "https://github.com/collinchiz/Project-1",
     youtube: "https://youtu.be/n5rXBLownQs",
-    dropbox:
-      "https://www.dropbox.com/s/z5zwgwdtjskb8h5/whats-in-your-pantry.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/z5zwgwdtjskb8h5/whats-in-your-pantry.mov?dl=0",
   },
   // Project 2
   {
@@ -75,8 +70,7 @@ const projects = [
     url: "https://bankansoundshare.herokuapp.com",
     github: "https://github.com/Tecdef/project-dos",
     youtube: "https://www.youtube.com/watch?v=5FKt0rFsZ1U",
-    dropbox:
-      "https://www.dropbox.com/s/5dzznieywlkmww5/bankan.mov?dl=0",
+    dropbox: "https://www.dropbox.com/s/5dzznieywlkmww5/bankan.mov?dl=0",
   },
   {
     title: "Battleheroes",
@@ -86,7 +80,7 @@ const projects = [
     url: "https://battleheroes.io",
     github: "https://github.com/TylerWebb92/group-project-2",
     youtube: "https://www.youtube.com/watch?v=ZWNeC6DKdNw",
-    dropbox: "",
+    dropbox: "https://www.dropbox.com/s/dcjo6z5xyhkej34/battle-heroes.mov?dl=0",
   },
   {
     title: "One Touch Inventory",
@@ -106,7 +100,7 @@ const projects = [
     url: "https://divdiv.herokuapp.com/",
     github: "https://github.com/psych0sykes/div",
     youtube: "https://www.youtube.com/watch?v=OPctyfnrsLA",
-    dropbox: "",
+    dropbox: "https://www.dropbox.com/s/y41y40dg5du42mg/divdiv.mov?dl=0",
   },
   {
     title: "Forecast Tool",
@@ -116,7 +110,7 @@ const projects = [
     url: "https://forecasttool.herokuapp.com/",
     github: "https://github.com/tylercasperson/ForecastTool",
     youtube: "https://www.youtube.com/watch?v=WDX9B-pLouM",
-    dropbox: "",
+    dropbox: "https://www.dropbox.com/s/j74xzm42txorhyj/forecast-tool.mov?dl=0",
   },
   {
     title: "Team Awesome 2.0",
@@ -136,7 +130,7 @@ const projects = [
     url: "",
     github: "",
     youtube: "https://www.youtube.com/watch?v=GsFrePMSJRE",
-    dropbox: "",
+    dropbox: "https://www.dropbox.com/s/ciruuzr5g47juvn/telehealth-devices.mov?dl=0",
   },
   {
     title: "What's in My Pantry",
@@ -146,7 +140,7 @@ const projects = [
     url: "http://whats-in-my-pantry.herokuapp.com/",
     github: "https://github.com/ZippyPompano/WhatsInMyPantry",
     youtube: "https://www.youtube.com/watch?v=jJFyYpb8-No",
-    dropbox: "",
+    dropbox: "https://www.dropbox.com/s/4f7kr6edq8lqzjn/whats-in-my-pantry.mov?dl=0",
   },
   // Project 3
   {}
