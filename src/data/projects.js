@@ -7,19 +7,19 @@ const projects = [
     url: "https://simplicityviaclarity.com/",
     github: "https://github.com/ccollins1544/simplicityviaclarity",
     youtube: "https://youtu.be/WW_DdSJ9h7c",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/iflhxxhk48gy9fk/simplicity-via-clarity.mov?dl=0",
   },
   {
     title: "Sports Simplified",
     description:
-      "Find out what's happening around the sports team venue. Never get left in the rain uprepared again",
+      "Find out what's happening around the sports team venue. Never get left in the rain unprepared again",
     image: "project-1/sports-simplified.png",
     number: 1,
     url: "https://themtwa.github.io/Project-1/",
     github: "https://github.com/themtwa/Project-1",
     youtube: "https://youtu.be/nJfliL5gyJc",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/o3h906hyyawj3sc/sports-simplified.mov?dl=0",
   },
   {
@@ -30,8 +30,7 @@ const projects = [
     url: "https://kspaffk.github.io/Project1/",
     github: "https://github.com/kspaffk/Project1",
     youtube: "https://youtu.be/vIWwl1OMZkw",
-    downloadUrl:
-      "https://www.dropbox.com/s/vdj2m56qlap90wi/stock-stop.mov?dl=0",
+    download: "https://www.dropbox.com/s/vdj2m56qlap90wi/stock-stop.mov?dl=0",
   },
   {
     title: "Weather Station",
@@ -42,7 +41,7 @@ const projects = [
     url: "https://nmikstas.github.io/group-project-1b/",
     github: "https://github.com/nmikstas/group-project-1b",
     youtube: "https://youtu.be/s0WmDIK_47Y",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/4ue13c97g54gt0d/weather-station.mov?dl=0",
   },
   {
@@ -53,7 +52,7 @@ const projects = [
     url: "http://wdyw.space",
     github: "https://github.com/jonvictory/projectUno",
     youtube: "https://youtu.be/8fam_qGb9fE",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/hytp7y0y1eq21vr/what-do-you-want.mov?dl=0",
   },
   {
@@ -64,7 +63,7 @@ const projects = [
     url: "https://collinchiz.github.io/Project-1/",
     github: "https://github.com/collinchiz/Project-1",
     youtube: "https://youtu.be/n5rXBLownQs",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/z5zwgwdtjskb8h5/whats-in-your-pantry.mov?dl=0",
   },
   // Project 2
@@ -76,7 +75,7 @@ const projects = [
     url: "https://bankansoundshare.herokuapp.com",
     github: "https://github.com/Tecdef/project-dos",
     youtube: "https://www.youtube.com/watch?v=5FKt0rFsZ1U",
-    downloadUrl: "https://www.dropbox.com/s/5dzznieywlkmww5/bankan.mov?dl=0",
+    download: "https://www.dropbox.com/s/5dzznieywlkmww5/bankan.mov?dl=0",
   },
   {
     title: "Battleheroes",
@@ -86,7 +85,7 @@ const projects = [
     url: "https://battleheroes.io",
     github: "https://github.com/TylerWebb92/group-project-2",
     youtube: "https://www.youtube.com/watch?v=ZWNeC6DKdNw",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/dcjo6z5xyhkej34/battle-heroes.mov?dl=0",
   },
   {
@@ -97,7 +96,7 @@ const projects = [
     url: "http://ec2-18-222-165-116.us-east-2.compute.amazonaws.com/",
     github: "https://github.com/kspaffk/project2",
     youtube: "https://www.youtube.com/watch?v=rhnCPElYyO0",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/bcwb2i6v479wakv/one-touch-inventory.mov?dl=0",
   },
   {
@@ -108,7 +107,7 @@ const projects = [
     url: "https://divdiv.herokuapp.com/",
     github: "https://github.com/psych0sykes/div",
     youtube: "https://www.youtube.com/watch?v=OPctyfnrsLA",
-    downloadUrl: "https://www.dropbox.com/s/y41y40dg5du42mg/divdiv.mov?dl=0",
+    download: "https://www.dropbox.com/s/y41y40dg5du42mg/divdiv.mov?dl=0",
   },
   {
     title: "Forecast Tool",
@@ -118,7 +117,7 @@ const projects = [
     url: "https://forecasttool.herokuapp.com/",
     github: "https://github.com/tylercasperson/ForecastTool",
     youtube: "https://www.youtube.com/watch?v=WDX9B-pLouM",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/j74xzm42txorhyj/forecast-tool.mov?dl=0",
   },
   {
@@ -129,8 +128,7 @@ const projects = [
     url: "https://blooming-wildwood-37584.herokuapp.com/",
     github: "https://github.com/cmikstas/project-2-survey",
     youtube: "https://www.youtube.com/watch?v=_vSFwk6qipA",
-    downloadUrl:
-      "https://www.dropbox.com/s/wncharyd05977ou/team-awesome.mov?dl=0",
+    download: "https://www.dropbox.com/s/wncharyd05977ou/team-awesome.mov?dl=0",
   },
   {
     title: "Telehealth Devices",
@@ -140,7 +138,7 @@ const projects = [
     url: "",
     github: "",
     youtube: "https://www.youtube.com/watch?v=GsFrePMSJRE",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/ciruuzr5g47juvn/telehealth-devices.mov?dl=0",
   },
   {
@@ -151,7 +149,7 @@ const projects = [
     url: "http://whats-in-my-pantry.herokuapp.com/",
     github: "https://github.com/ZippyPompano/WhatsInMyPantry",
     youtube: "https://www.youtube.com/watch?v=jJFyYpb8-No",
-    downloadUrl:
+    download:
       "https://www.dropbox.com/s/4f7kr6edq8lqzjn/whats-in-my-pantry.mov?dl=0",
   },
   // Project 3

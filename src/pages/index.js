@@ -84,9 +84,9 @@ const Project = ({ project }) => (
           </a>
           <a
             className={`m-1 hover:bg-gray-100 p-2 rounded-full text-blue-700 uppercase inline-block${
-              project.downloadUrl ? "" : " hidden"
+              project.download ? "" : " hidden"
             }`}
-            href={project.downloadUrl}
+            href={project.download}
             title={`Download ${project.title} Video`}
             target="_blank"
             rel="noopener noreferrer"
