@@ -5,10 +5,7 @@ import SEO from "../components/seo"
 import projects from "../data/projects"
 
 const Project = ({ project }) => (
-  <div
-    key={project.title}
-    className="w-full md:w-1/2 lg:w-1/3 mb-6 px-3 pt-1"
-  >
+  <div key={project.title} className="w-full md:w-1/2 lg:w-1/3 mb-6 px-3 pt-1">
     <div className="h-full rounded overflow-hidden shadow-md bg-white flex flex-col">
       <a
         href={project.url}
@@ -33,7 +30,9 @@ const Project = ({ project }) => (
       </div>
       <div className="shadow-inner flex flex-wrap justify-between items-end px-2 xl:px-4 py-4 bg-gray-200">
         <a
-          className="flex justify-center items-center m-1 rounded border border-gray-400 hover:border-gray-400 bg-gray-100 hover:bg-white px-4 py-3 text-blue-700 uppercase inline-block text-sm"
+          className={`flex justify-center items-center m-1 rounded border border-gray-400 hover:border-gray-400 bg-gray-100 hover:bg-white px-4 py-3 text-blue-700 uppercase inline-block text-sm${
+            project.url ? "" : " hidden"
+          }`}
           href={project.url}
           title={`View ${project.title} Project`}
           target="_blank"
@@ -47,10 +46,12 @@ const Project = ({ project }) => (
             <path d="M352 442.2c-.3-2.2-2-3.9-4.2-4.3l-22.3-1.9c-11.8-3.1-20.5-16.2-22.3-28.3L302 400h-92l-1.2 7.6c-1.9 12.1-10.5 25.2-22.3 28.3l-22.3 1.9c-2.1.5-3.9 2.2-4.2 4.3-.4 3.1 2 5.8 5.1 5.8h181.8c3 .1 5.5-2.6 5.1-5.7zM472.9 71c-4.5-4.5-10.7-7-17-7H56.2c-6.4 0-12.5 2.5-17 7S32 81.7 32 88v272c0 6.4 2.7 12.5 7.2 17s10.5 7 16.8 7h400c6.4 0 12.3-2.5 16.8-7s7.2-10.7 7.2-17V88c.1-6.3-2.6-12.5-7.1-17zM256 360c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm203.9-40H52.2c-2.2 0-4-1.8-4-4V92c0-6.6 5.4-12 12-12h391.7c6.6 0 12 5.4 12 12v224c0 2.2-1.8 4-4 4z" />
           </svg>
           View Project
-                </a>
+        </a>
         <div>
           <a
-            className="m-1 hover:bg-gray-100 p-2 rounded-full text-gray-700 uppercase inline-block"
+            className={`m-1 hover:bg-gray-100 p-2 rounded-full text-gray-700 uppercase inline-block${
+              project.github ? "" : " hidden"
+            }`}
             href={project.github}
             title={`View ${project.title} on GitHub`}
             target="_blank"
@@ -65,7 +66,9 @@ const Project = ({ project }) => (
             </svg>
           </a>
           <a
-            className="m-1 hover:bg-gray-100 p-2 rounded-full text-red-700 uppercase inline-block"
+            className={`m-1 hover:bg-gray-100 p-2 rounded-full text-red-700 uppercase inline-block${
+              project.youtube ? "" : " hidden"
+            }`}
             href={project.youtube}
             title={`View ${project.title} on YouTube`}
             target="_blank"
@@ -80,20 +83,20 @@ const Project = ({ project }) => (
             </svg>
           </a>
           <a
-            className={`m-1 hover:bg-gray-100 p-2 rounded-full text-blue-700 uppercase inline-block${new Date().getFullYear() >
-              2019} ? ' hidden' : ''`}
-            href={project.dropbox}
-            title={`View ${project.title} on DropBox`}
+            className={`m-1 hover:bg-gray-100 p-2 rounded-full text-blue-700 uppercase inline-block${
+              project.downloadUrl ? "" : " hidden"
+            }`}
+            href={project.downloadUrl}
+            title={`Download ${project.title} Video`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
               className="h-6 inline-block fill-current"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M177 77L64 150.9l78.1 62.7L256 143.1zM64 276.3l113 73.9 79-66.1-113.9-70.5zM256 284.1l79 66.1 113-73.9-78.1-62.7zM448 150.9L335 77l-79 66.1 113.9 70.5z" />
-              <path d="M256.2 298.3l-79.8 66-34.4-22.2V367l114 68 114-68v-24.9l-34.2 22.2z" />
+              <path d="M403.002 217.001C388.998 148.002 328.998 96 256 96c-57.998 0-107.998 32.998-132.998 81.001C63.002 183.002 16 233.998 16 296c0 65.996 53.999 120 120 120h260c55 0 100-45 100-100 0-52.998-40.996-96.001-92.998-98.999zM224 268v-76h64v76h68L256 368 156 268h68z" />
             </svg>
           </a>
         </div>
@@ -108,9 +111,11 @@ const ProjectNumber = ({ number }) => (
       <h2 className="text-2xl text-red-900">Project {number}</h2>
     </div>
     <div className="flex flex-wrap items-stretch mt-4">
-      {projects.filter(project => project.number === +number).map(project => {
-        return <Project key={project.image} project={project} />
-      })}
+      {projects
+        .filter(project => project.number === +number)
+        .map(project => {
+          return <Project key={project.image} project={project} />
+        })}
     </div>
   </div>
 )
