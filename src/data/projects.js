@@ -1,4 +1,5 @@
 const projects = [
+  // Project 1
   {
     title: "Simplicity Via Clarity",
     description: "See who is on your website and what they are doing",
@@ -8,7 +9,7 @@ const projects = [
     github: "https://github.com/ccollins1544/simplicityviaclarity",
     youtube: "https://youtu.be/WW_DdSJ9h7c",
     download:
-      "https://www.dropbox.com/s/iflhxxhk48gy9fk/simplicity-via-clarity.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/simplicity-via-clarity.mov",
   },
   {
     title: "Sports Simplified",
@@ -20,7 +21,7 @@ const projects = [
     github: "https://github.com/themtwa/Project-1",
     youtube: "https://youtu.be/nJfliL5gyJc",
     download:
-      "https://www.dropbox.com/s/o3h906hyyawj3sc/sports-simplified.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/sports-simplified.mov",
   },
   {
     title: "Stock Stop",
@@ -30,7 +31,8 @@ const projects = [
     url: "https://kspaffk.github.io/Project1/",
     github: "https://github.com/kspaffk/Project1",
     youtube: "https://youtu.be/vIWwl1OMZkw",
-    download: "https://www.dropbox.com/s/vdj2m56qlap90wi/stock-stop.mov?dl=0",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/stock-stop.mov",
   },
   {
     title: "Weather Station",
@@ -42,7 +44,7 @@ const projects = [
     github: "https://github.com/nmikstas/group-project-1b",
     youtube: "https://youtu.be/s0WmDIK_47Y",
     download:
-      "https://www.dropbox.com/s/4ue13c97g54gt0d/weather-station.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/weather-station.mov",
   },
   {
     title: "What Do You Want?",
@@ -53,7 +55,7 @@ const projects = [
     github: "https://github.com/jonvictory/projectUno",
     youtube: "https://youtu.be/8fam_qGb9fE",
     download:
-      "https://www.dropbox.com/s/hytp7y0y1eq21vr/what-do-you-want.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/what-do-you-want.mov",
   },
   {
     title: "What's in Your Pantry",
@@ -64,7 +66,7 @@ const projects = [
     github: "https://github.com/collinchiz/Project-1",
     youtube: "https://youtu.be/n5rXBLownQs",
     download:
-      "https://www.dropbox.com/s/z5zwgwdtjskb8h5/whats-in-your-pantry.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/whats-in-your-pantry.mov",
   },
   // Project 2
   {
@@ -75,7 +77,8 @@ const projects = [
     url: "https://bankansoundshare.herokuapp.com",
     github: "https://github.com/Tecdef/project-dos",
     youtube: "https://www.youtube.com/watch?v=5FKt0rFsZ1U",
-    download: "https://www.dropbox.com/s/5dzznieywlkmww5/bankan.mov?dl=0",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/bankan.mov",
   },
   {
     title: "Battleheroes",
@@ -86,7 +89,7 @@ const projects = [
     github: "https://github.com/TylerWebb92/group-project-2",
     youtube: "https://www.youtube.com/watch?v=ZWNeC6DKdNw",
     download:
-      "https://www.dropbox.com/s/dcjo6z5xyhkej34/battle-heroes.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/battle-heroes.mov",
   },
   {
     title: "One Touch Inventory",
@@ -97,7 +100,7 @@ const projects = [
     github: "https://github.com/kspaffk/project2",
     youtube: "https://www.youtube.com/watch?v=rhnCPElYyO0",
     download:
-      "https://www.dropbox.com/s/bcwb2i6v479wakv/one-touch-inventory.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/one-touch-inventory.mov",
   },
   {
     title: "Divdiv",
@@ -107,7 +110,8 @@ const projects = [
     url: "https://divdiv.herokuapp.com/",
     github: "https://github.com/psych0sykes/div",
     youtube: "https://www.youtube.com/watch?v=OPctyfnrsLA",
-    download: "https://www.dropbox.com/s/y41y40dg5du42mg/divdiv.mov?dl=0",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/divdiv.mov",
   },
   {
     title: "Forecast Tool",
@@ -118,7 +122,7 @@ const projects = [
     github: "https://github.com/tylercasperson/ForecastTool",
     youtube: "https://www.youtube.com/watch?v=WDX9B-pLouM",
     download:
-      "https://www.dropbox.com/s/j74xzm42txorhyj/forecast-tool.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/forecast-tool.mov",
   },
   {
     title: "Team Awesome 2.0",
@@ -128,7 +132,8 @@ const projects = [
     url: "https://blooming-wildwood-37584.herokuapp.com/",
     github: "https://github.com/cmikstas/project-2-survey",
     youtube: "https://www.youtube.com/watch?v=_vSFwk6qipA",
-    download: "https://www.dropbox.com/s/wncharyd05977ou/team-awesome.mov?dl=0",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/team-awesome.mov",
   },
   {
     title: "Telehealth Devices",
@@ -139,7 +144,7 @@ const projects = [
     github: "",
     youtube: "https://www.youtube.com/watch?v=GsFrePMSJRE",
     download:
-      "https://www.dropbox.com/s/ciruuzr5g47juvn/telehealth-devices.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/telehealth-devices.mov",
   },
   {
     title: "What's in My Pantry",
@@ -150,7 +155,7 @@ const projects = [
     github: "https://github.com/ZippyPompano/WhatsInMyPantry",
     youtube: "https://www.youtube.com/watch?v=jJFyYpb8-No",
     download:
-      "https://www.dropbox.com/s/4f7kr6edq8lqzjn/whats-in-my-pantry.mov?dl=0",
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/whats-in-my-pantry.mov",
   },
   // Project 3
   {},
