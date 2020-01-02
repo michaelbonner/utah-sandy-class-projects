@@ -4,14 +4,16 @@ import Image from "../components/image"
 const Project = ({ project }) => (
   <div key={project.title} className="w-full md:w-1/2 lg:w-1/3 mb-6 px-3 pt-1">
     <div className="h-full rounded overflow-hidden shadow-md bg-white flex flex-col">
-      <a
-        href={project.url}
-        title={project.title}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image alt={project.title} filename={project.image} />
-      </a>
+      {project.image && (
+        <a
+          href={project.url}
+          title={project.title}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image alt={project.title} filename={project.image} />
+        </a>
+      )}
       <div className="px-6 py-4 flex-grow flex flex-col">
         <div className="font-bold text-xl mb-2">
           <a
