@@ -158,6 +158,15 @@ const projects = [
       "https://f000.backblazeb2.com/file/utahsandyfullstackclass/whats-in-my-pantry.mov",
   },
   // Project 3
-  {},
+  {
+    title: "",
+    description: "Available February 12, 2020",
+    image: "",
+    number: 3,
+    url: "",
+    github: "",
+    youtube: "",
+    download: "",
+  },
 ]
 export default projects
