@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="bg-crimson-500 mb-8 shadow-xl"
+>
+  <div
+    className="container px-6 py-8 m-auto"
+  >
+    <h1>
+      <a
+        className="text-white no-underline text-2xl uppercase"
+        href="/"
+      >
+        Gatsby Test Title
+      </a>
+    </h1>
+  </div>
+</header>
+`;
