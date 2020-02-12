@@ -165,8 +165,9 @@ const projects = [
     number: 3,
     url: "https://bankan2.herokuapp.com/",
     github: "https://github.com/Tecdef/BanKan",
-    youtube: "",
-    download: "",
+    youtube: "https://www.youtube.com/watch?v=EZ3X0iBB3qo",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-bankanchop-1080.mov",
   },
   {
     title: "Battle Heroes",
@@ -175,8 +176,9 @@ const projects = [
     number: 3,
     url: "http://battleheroes.io",
     github: "https://github.com/ccollins1544/battleheroes.io",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/hl_6U6iNl8s",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-battle-heroes-1080.mov",
   },
   {
     title: "DivDiv2",
@@ -185,8 +187,9 @@ const projects = [
     number: 3,
     url: "https://stark-inlet-81881.herokuapp.com",
     github: "https://github.com/psych0sykes/divdiv",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/lmj_PleCG4s",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-divdiv-1080.mov",
   },
   {
     title: "Gift Together",
@@ -195,8 +198,9 @@ const projects = [
     number: 3,
     url: "https://stark-gorge-52811.herokuapp.com",
     github: "https://github.com/jwbeuchert/project3/",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/9pLbmVjITrY",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-gift-together-1080.mov",
   },
   {
     title: "NTNT",
@@ -205,8 +209,9 @@ const projects = [
     number: 3,
     url: "https://mysterious-woodland-55925.herokuapp.com",
     github: "https://github.com/nmikstas/project-3",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/xxyjKWTeAmY",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-ntnt-1080.mov",
   },
   {
     title: "Telehealth",
@@ -215,8 +220,9 @@ const projects = [
     number: 3,
     url: "https://finalproject555.herokuapp.com",
     github: "https://github.com/rogelfuentes/FinalProject",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/2ViIC9nTPl4",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-telehealth-1080.mov",
   },
   {
     title: "What's In My Pantry",
@@ -225,8 +231,9 @@ const projects = [
     number: 3,
     url: "https://whats-in-my-pantry.herokuapp.com",
     github: "https://github.com/PrestonWeber/WhatsInMyPantryReact",
-    youtube: "",
-    download: "",
+    youtube: "https://youtu.be/KYih_yBd-_E",
+    download:
+      "https://f000.backblazeb2.com/file/utahsandyfullstackclass/3-whats-in-my-pantry-1080.mov",
   },
 ]
 export default projects
