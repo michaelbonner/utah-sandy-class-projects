@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Utah Sandy Campus T-Th Class Project 1`,
-    description: `A little site to show all the class projects from project 1`,
+    title: `Utah Sandy Campus T-Th Class Projects`,
+    description: `A little site to show all the class projects from the boot camp`,
     author: `@fictiveweb`,
+    defaultImage: "/og-image.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
