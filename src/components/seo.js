@@ -52,6 +52,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: `https://utah-sandy-class-projects.netlify.com/`,
+        },
+        {
           property: `og:image`,
           content: "/og-image.png",
         },
