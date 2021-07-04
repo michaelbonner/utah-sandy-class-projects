@@ -1,28 +1,26 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-const Image = props => (
+const Image = (props) => (
   <StaticQuery
     query={graphql`
-      query {
+      {
         images: allFile {
           edges {
             node {
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 600) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 600, layout: CONSTRAINED)
               }
             }
           }
         }
       }
     `}
-    render={data => {
-      const image = data.images.edges.find(n => {
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
         return n.node.relativePath.includes(props.filename)
       })
       if (!image) {
@@ -30,10 +28,10 @@ const Image = props => (
       }
 
       return (
-        <Img
+        <GatsbyImage
+          image={image.node.childImageSharp.gatsbyImageData}
           {...props}
           alt={props.alt}
-          fluid={image.node.childImageSharp.fluid}
         />
       )
     }}
