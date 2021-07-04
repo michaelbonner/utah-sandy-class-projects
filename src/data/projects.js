@@ -3,7 +3,7 @@ const projects = [
   {
     title: "Simplicity Via Clarity",
     description: "See who is on your website and what they are doing",
-    image: "project-1/simplicity-via-clarity.png",
+    image: "project-1/simplicity-via-clarity.jpg",
     number: 1,
     url: "https://simplicityviaclarity.com/",
     github: "https://github.com/ccollins1544/simplicityviaclarity",
@@ -15,7 +15,7 @@ const projects = [
     title: "Sports Simplified",
     description:
       "Find out what's happening around the sports team venue. Never get left in the rain unprepared again",
-    image: "project-1/sports-simplified.png",
+    image: "project-1/sports-simplified.jpg",
     number: 1,
     url: "https://themtwa.github.io/Project-1/",
     github: "https://github.com/themtwa/Project-1",
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Stock Stop",
     description: "Simplified listing of stock information with news",
-    image: "project-1/stock-stop.png",
+    image: "project-1/stock-stop.jpg",
     number: 1,
     url: "https://kspaffk.github.io/Project1/",
     github: "https://github.com/kspaffk/Project1",
@@ -38,7 +38,7 @@ const projects = [
     title: "Weather Station",
     description:
       "Simplified weather app for those who want information quickly",
-    image: "project-1/weather-station.png",
+    image: "project-1/weather-station.jpg",
     number: 1,
     url: "https://nmikstas.github.io/group-project-1b/",
     github: "https://github.com/nmikstas/group-project-1b",
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "What Do You Want?",
     description: "Restaurant polling app",
-    image: "project-1/what-do-you-want.png",
+    image: "project-1/what-do-you-want.jpg",
     number: 1,
     url: "http://wdyw.space",
     github: "https://github.com/jonvictory/projectUno",
@@ -60,7 +60,7 @@ const projects = [
   {
     title: "What's in Your Pantry",
     description: "Find a recipe based on the items in your pantry",
-    image: "project-1/whats-in-your-pantry.png",
+    image: "project-1/whats-in-your-pantry.jpg",
     number: 1,
     url: "https://collinchiz.github.io/Project-1/",
     github: "https://github.com/collinchiz/Project-1",
@@ -83,7 +83,7 @@ const projects = [
   {
     title: "Battleheroes",
     description: "Online RPG game",
-    image: "project-2/battleheroes.io.png",
+    image: "project-2/battleheroes.io.jpg",
     number: 2,
     url: "https://battleheroes.io",
     github: "https://github.com/TylerWebb92/group-project-2",
@@ -127,7 +127,7 @@ const projects = [
   {
     title: "Team Awesome 2.0",
     description: "Customizable surveys",
-    image: "project-2/blooming-wildwood-37584.herokuapp.com.png",
+    image: "project-2/blooming-wildwood-37584.herokuapp.com.jpg",
     number: 2,
     url: "https://blooming-wildwood-37584.herokuapp.com/",
     github: "https://github.com/cmikstas/project-2-survey",
