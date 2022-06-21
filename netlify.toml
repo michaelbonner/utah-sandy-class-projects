@@ -1,3 +1,11 @@
 [[redirects]]
+  from = ""
+  to = "https://utah-sandy-class-projects.vercel.app/"
+
+[[redirects]]
   from = "/"
   to = "https://utah-sandy-class-projects.vercel.app/"
+
+[[redirects]]
+  from = "/*"
+  to = "https://utah-sandy-class-projects.vercel.app/:splat"
