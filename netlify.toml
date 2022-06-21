@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/"
+  from = "https://utah-sandy-class-projects.netlify.app/"
   to = "https://utah-sandy-class-projects.vercel.app/"
   status = 301
   force = true
