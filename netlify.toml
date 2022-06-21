@@ -1,7 +1,11 @@
 [[redirects]]
   from = "/"
   to = "https://utah-sandy-class-projects.vercel.app/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/*"
   to = "https://utah-sandy-class-projects.vercel.app/:splat"
+  status = 301
+  force = true
