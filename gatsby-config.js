@@ -31,6 +31,5 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
   ],
 }
