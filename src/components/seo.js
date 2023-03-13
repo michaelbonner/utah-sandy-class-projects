@@ -34,6 +34,12 @@ function Seo({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        {
+          rel: "canonical",
+          type: "https://utah-sandy-class-projects.vercel.app/",
+        },
+      ]}
       meta={[
         {
           name: `description`,
@@ -53,7 +59,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           property: `og:url`,
-          content: `https://utah-sandy-class-projects.netlify.com/`,
+          content: `https://utah-sandy-class-projects.vercel.app/`,
         },
         {
           property: `og:image`,

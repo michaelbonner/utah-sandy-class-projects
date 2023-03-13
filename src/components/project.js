@@ -29,7 +29,7 @@ const Project = ({ project }) => (
       </div>
       <div className="shadow-inner flex flex-wrap justify-between items-end px-2 xl:px-4 py-4 bg-gray-200">
         <a
-          className={`flex justify-center items-center m-1 rounded border border-gray-400 hover:border-gray-400 bg-gray-100 hover:bg-white px-4 py-3 text-blue-700 uppercase inline-block text-sm${
+          className={`flex justify-center items-center m-1 rounded border border-gray-400 hover:border-gray-400 bg-gray-100 hover:bg-white px-4 py-3 text-blue-700 uppercase text-sm${
             project.url ? "" : " hidden"
           }`}
           href={project.url}
