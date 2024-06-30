@@ -5,12 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
+export const Seo = ({ description, title }) => {
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -26,79 +24,31 @@ function Seo({ description, lang, meta, title }) {
   const metaDescription = description || site.siteMetadata.description
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      link={[
-        {
-          rel: "canonical",
-          type: "https://utah-sandy-class-projects.vercel.app/",
-        },
-      ]}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:url`,
-          content: `https://utah-sandy-class-projects.vercel.app/`,
-        },
-        {
-          property: `og:image`,
-          content: "/og-image.jpg",
-        },
-        {
-          property: `image`,
-          content: "/og-image.jpg",
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <>
+      <html lang="en" />
+      <title>
+        {title} | {site.siteMetadata.title}
+      </title>
+
+      <link
+        rel="canonical"
+        href="https://utah-sandy-class-projects.vercel.app/"
+      />
+
+      <meta name="description" content={metaDescription} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content={`website`} />
+      <meta
+        property="og:url"
+        content={`https://utah-sandy-class-projects.vercel.app/`}
+      />
+      <meta property="og:image" content={"/og-image.jpg"} />
+      <meta property="image" content={"/og-image.jpg"} />
+      <meta name="twitter:card" content={`summary`} />
+      <meta name="twitter:creator" content={site.siteMetadata.author} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={metaDescription} />
+    </>
   )
 }
-
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-}
-
-export default Seo

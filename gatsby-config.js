@@ -6,7 +6,6 @@ module.exports = {
     defaultImage: "/og-image.jpg",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
