@@ -3,7 +3,7 @@ module.exports = {
     title: `Utah Sandy Campus T-Th Class Projects`,
     description: `A little site to show all the class projects from the boot camp`,
     author: `@fictiveweb`,
-    defaultImage: "/og-image.png",
+    defaultImage: "/og-image.jpg",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

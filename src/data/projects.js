@@ -72,7 +72,7 @@ const projects = [
   {
     title: "Bankan",
     description: "Simple audio file sharing",
-    image: "project-2/bankansoundshare.herokuapp.com.png",
+    image: "project-2/bankansoundshare.herokuapp.com.jpg",
     number: 2,
     url: "https://bankansoundshare.herokuapp.com",
     github: "https://github.com/Tecdef/project-dos",
@@ -105,7 +105,7 @@ const projects = [
   {
     title: "Divdiv",
     description: "Social color mood board",
-    image: "project-2/divdiv.herokuapp.com.png",
+    image: "project-2/divdiv.herokuapp.com.jpg",
     number: 2,
     url: "https://divdiv.herokuapp.com/",
     github: "https://github.com/psych0sykes/div",
@@ -116,7 +116,7 @@ const projects = [
   {
     title: "Forecast Tool",
     description: "Forecasting tool for companies",
-    image: "project-2/forecasttool.herokuapp.com.png",
+    image: "project-2/forecasttool.herokuapp.com.jpg",
     number: 2,
     url: "https://forecasttool.herokuapp.com/",
     github: "https://github.com/tylercasperson/ForecastTool",
@@ -138,7 +138,7 @@ const projects = [
   {
     title: "Telehealth Devices",
     description: "Telehealth Devices tracker",
-    image: "project-2/telehealth-devices.png",
+    image: "project-2/telehealth-devices.jpg",
     number: 2,
     url: "",
     github: "",
@@ -149,7 +149,7 @@ const projects = [
   {
     title: "What's in My Pantry",
     description: "Recipe finder and keeper",
-    image: "project-2/whats-in-my-pantry.herokuapp.com.png",
+    image: "project-2/whats-in-my-pantry.herokuapp.com.jpg",
     number: 2,
     url: "https://whats-in-my-pantry.herokuapp.com/",
     github: "https://github.com/ZippyPompano/WhatsInMyPantry",
@@ -183,7 +183,7 @@ const projects = [
   {
     title: "DivDiv2",
     description: "Fundraising and petition sharing",
-    image: "project-3/stark-inlet-81881.herokuapp.com.png",
+    image: "project-3/stark-inlet-81881.herokuapp.com.jpg",
     number: 3,
     url: "https://stark-inlet-81881.herokuapp.com",
     github: "https://github.com/psych0sykes/divdiv",
@@ -194,7 +194,7 @@ const projects = [
   {
     title: "Gift Together",
     description: "Gift list sharing and coordination",
-    image: "project-3/stark-gorge-52811.herokuapp.com.png",
+    image: "project-3/stark-gorge-52811.herokuapp.com.jpg",
     number: 3,
     url: "https://stark-gorge-52811.herokuapp.com",
     github: "https://github.com/jwbeuchert/project3/",
@@ -216,7 +216,7 @@ const projects = [
   {
     title: "Telehealth",
     description: "Telehealth device tracker and downtime reports",
-    image: "project-3/finalproject555.herokuapp.com.png",
+    image: "project-3/finalproject555.herokuapp.com.jpg",
     number: 3,
     url: "https://finalproject555.herokuapp.com",
     github: "https://github.com/rogelfuentes/FinalProject",
