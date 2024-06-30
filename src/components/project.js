@@ -48,13 +48,14 @@ const Project = ({ project }) => (
         </a>
         <div>
           <a
+            aria-label="View project on GitHub"
             className={`m-1 hover:bg-gray-100 p-2 rounded-full text-gray-700 uppercase inline-block${
               project.github ? "" : " hidden"
             }`}
             href={project.github}
-            title={`View ${project.title} on GitHub`}
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
+            title={`View ${project.title} on GitHub`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,13 +66,14 @@ const Project = ({ project }) => (
             </svg>
           </a>
           <a
+            aria-label="View project presentation on YouTube"
             className={`m-1 hover:bg-gray-100 p-2 rounded-full text-red-700 uppercase inline-block${
               project.youtube ? "" : " hidden"
             }`}
             href={project.youtube}
-            title={`View ${project.title} on YouTube`}
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
+            title={`View ${project.title} on YouTube`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,13 +84,14 @@ const Project = ({ project }) => (
             </svg>
           </a>
           <a
+            aria-label="Download project presentation video"
             className={`m-1 hover:bg-gray-100 p-2 rounded-full text-blue-700 uppercase inline-block${
               project.download ? "" : " hidden"
             }`}
             href={project.download}
-            title={`Download ${project.title} Video`}
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
+            title={`Download ${project.title} Video`}
           >
             <svg
               className="h-6 inline-block fill-current"

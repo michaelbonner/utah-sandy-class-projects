@@ -49,6 +49,7 @@ const Layout = ({ children }) => {
           </p>
           <p>
             <a
+              aria-label="View project on GitHub"
               href="https://github.com/michaelbonner/utah-sandy-class-projects"
               title="View project on GitHub"
             >
