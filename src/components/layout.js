@@ -25,14 +25,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="container m-auto p-4">
+      <div className="container p-4 m-auto">
         <main>{children}</main>
-        <footer className="flex flex-wrap justify-between m-4 mt-8 text-gray-600 text-sm">
+        <footer className="flex flex-wrap justify-between m-4 mt-8 text-sm text-gray-600">
           <p>
             ©<small> </small>
             {new Date().getFullYear()}{" "}
             <a
-              className="hover:text-gray-800 border-b border-gray-400"
+              className="border-b border-gray-400 hover:text-gray-800"
               href="https://michaelbonner.dev"
             >
               Michael Bonner
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             , Built with
             {` `}
             <a
-              className="hover:text-gray-800 border-b border-gray-400"
+              className="border-b border-gray-400 hover:text-gray-800"
               href="https://www.gatsbyjs.org"
             >
               Gatsby
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
               title="View project on GitHub"
             >
               <svg
-                className="w-6 h-6 mr-1 fill-current text-gray-700 hover:text-gray-800"
+                className="mr-1 w-6 h-6 text-gray-700 fill-current hover:text-gray-800"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
               >
